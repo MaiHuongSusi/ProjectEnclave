@@ -1,98 +1,105 @@
 body{
 	margin:0;
 	color:grey;
-	background:#ffffff;
+    background-image: url('../img/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
 
-.logoSite{
-  display:inline-block;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;  
+.logo{
+    margin-top: 250px;
+    margin-left: 100px;
 }
-
-.header{
-    background-color: rgba(211,211,211, 0.3)
-}
-
-.section1{
-    height: 70px;
-}
-
 
 .formLogin{
-    margin-left: auto;
-    margin-right: auto; 
-    max-width: 3000px;
-    border-style:solid ;
-    box-shadow: 5px 5px 5px grey;
-    width: 800px;
-    height: 360px;
+    margin-top: 160px;
+    margin-right:60px;
+    background-color: transparent;
 
-}
-.nameForm{
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    font-size: 30px;
-    color: white;
-    
-}
-
-.inputUsername{
-    width: 400px;
-    height: 40px;
-}
-
-.inputPassword{
-    width: 400px;
-    height: 40px;
-    margin-left: 8px
-}
-
-.label{
-    font-size: 18px;
-    color: grey !important;
-}
-
-.btnLogIn{
-    margin-left: 110px; 
-    height: 40px;
-    width: 100px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    color: white;
-    font-weight: 800;
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    background: rgb(0,0,0,0.37);
-    box-shadow: 5px 5px white;
-}
-
-.btnReset{
-    height: 40px;
-    width: 100px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    color: white;
-    font-weight: 800;
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    background: rgb(0,0,0,0.37);
-    box-shadow: 5px 5px white;
-}
-
-.forgotPass{
-    font-size: 15px;
-    color: grey;
-    margin-left: 120px;
-    margin-top: -200px !important;
-    
 }
 
 .divForm{
-    background: rgb(0,0,0,0.37);;
+    text-align: right;
+}
+
+.nameForm{
+    font-family: Perpetua;
+    font-size: 40px;
+    color: white;
+    margin-top: 8px; 
+}
+
+.divUsername{
+    margin-top: 30px;
+    text-align: right;
+}
+
+.divPassword{
+    margin-top: 20px;
+    text-align: right;
+} 
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inputUsername{
+    border: 3px solid #77B237;
+    border-radius: 52px;
+    height: 55px;
+    width: 420px;
+    color: #77B237;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.inputPassword{
+    border: 3px solid #77B237;
+    border-radius: 52px;
+    height: 55px;
+    width: 420px;
+    color: #77B237;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.label{
+    margin-right: 12px;
+    font-size: 18px;
+    color: white;
+}
+
+.btnLogIn{ 
+    padding-left: 10px;
+    border: 3px solid #77B237;
+    border-radius: 52px;
+    height: 55px;
+    width: 180px;
+    background: #538F11;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 140px;
+}
+
+
+.forgotPass{
+    font-size: 18px;
+    color: white;
+    font-family: Segoe UI;
+    margin-left: 140px;
+    
+}
+
+.divForgot{
+    margin-top: 20px;
+    text-align: center;
 }
 
 
